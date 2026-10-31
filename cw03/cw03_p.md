@@ -32,7 +32,11 @@
 #Click 'Send'
 ```
 
-## h 3.1
+## h 3.5 p
 ```bash
-
+#Copy the Response from Hacker's URL in Burp Repeater
+#Paste it into https://obf-io.deobfuscate.io/ and remove HTTP headers and HTML (leave only JS)
+#Click 'Deobfuscate' and find console.log("secrets31337.php")
+#In Repeater change request to GET /h4ck3r1333733x/secrets31337.php and click 'Send'
+#Copy the flag from Response and paste it on the website
 ```
