@@ -12,3 +12,9 @@ gobuster vhost -u https://developer/ -w /usr/share/seclists/Discovery/DNS/subdom
 echo '192.168.100.154 beta.developer' | sudo tee -a /etc/hosts
 #Open https://beta.developer/ in browser
 ```
+
+## h 4.3 p
+```bash
+gobuster dir -u https://beta.developer/ -w /usr/share/seclists/Discovery/Web-Content/raft-small-directories.txt -k
+#Open https://beta.developer/admin/ in browser
+```
