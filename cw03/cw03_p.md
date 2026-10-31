@@ -29,7 +29,7 @@
 #Copy the encoded data from Hacker's response
 #Go to Burp -> Decoder, paste it and select 'Decode as...' -> 'Base64'
 #Copy the decoded URL and paste it into Repeater (GET /h4ck3r1333733x/)
-#Keep 'Cookie: debug=true' and click 'Send'
+#Click 'Send'
 ```
 
 ## h 3.1
