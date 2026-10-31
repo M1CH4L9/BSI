@@ -5,17 +5,12 @@
 #Change 'Cookie: debug=false' to true
 ```
 
-## h 3.2 p - Przekierowanie
+## h 3.2 p
 ```bash
-#On Kali open Burp Suite and http://192.168.100.153/login/ in browser
-#Find GET /login/ in Burp, right click and select 'Send to Repeater'
-#Click 'Send' and inspect the response body before following the redirect
-#302 Found still contains HTML with 'Welcome admin!' and a link to /usersdata/
-#In Repeater change the request path to GET /usersdata/ (keep Host: 192.168.100.153)
-#Click 'Send' and inspect the response
-#Open http://192.168.100.153/usersdata/ in browser
-#Result: Users' Data - John, Henry, Maria, Pat, Mat
-#BTW initial 408 timeouts disappeared after resetting the machine on the server
+#Open http://192.168.100.153/login/ in browser
+#Go to Burp and right click '/login/' URL and select 'Send to Repeater'
+#Change 'Cookie: debug=false' to 'Cookie: debug=true'
+#Change 'GET /login/' to 'GET /usersdata/' and click 'Send'
 ```
 
 ## h 3.1
