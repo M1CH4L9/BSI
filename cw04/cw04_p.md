@@ -18,3 +18,8 @@ echo '192.168.100.154 beta.developer' | sudo tee -a /etc/hosts
 gobuster dir -u https://beta.developer/ -w /usr/share/seclists/Discovery/Web-Content/raft-small-directories.txt -k
 #Open https://beta.developer/admin/ in browser
 ```
+
+## h 4.4 p
+```bash
+gobuster dir -u https://beta.developer/admin/ -w /usr/share/seclists/Discovery/Web-Content/raft-small-files.txt -k
+```
