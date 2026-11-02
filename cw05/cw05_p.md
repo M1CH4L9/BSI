@@ -31,4 +31,5 @@ ssh -i ~/192.168.200.155/.ssh/id_ed25519 wwwadmin@192.168.200.155
 #After SSH login from 5.4
 sudo su
 cat /root/root.txt
+#Copy the flag and submit it on the platform
 ```
