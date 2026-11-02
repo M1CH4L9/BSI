@@ -11,3 +11,9 @@ tar zxvf nmap-x64.tar.gz
 #Replace TARGET_IP with the IP from homework [H]
 ./nmap -n -Pn -sV -p- -vv TARGET_IP
 ```
+
+## h 5.3 p
+```bash
+ssh student@192.168.100.105 #Password: pjatk
+wget -r --no-parent http://192.168.200.155/
+```
