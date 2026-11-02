@@ -25,3 +25,10 @@ cat ~/192.168.200.155/.ssh/id_ed25519.pub
 chmod 600 ~/192.168.200.155/.ssh/id_ed25519
 ssh -i ~/192.168.200.155/.ssh/id_ed25519 wwwadmin@192.168.200.155
 ```
+
+## h 5.5 p
+```bash
+#After SSH login from 5.4
+sudo su
+cat /root/root.txt
+```
