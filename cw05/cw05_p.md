@@ -17,3 +17,11 @@ tar zxvf nmap-x64.tar.gz
 ssh student@192.168.100.105 #Password: pjatk
 wget -r --no-parent http://192.168.200.155/
 ```
+
+## h 5.4 p
+```bash
+#On student@192.168.100.105:
+cat ~/192.168.200.155/.ssh/id_ed25519.pub
+chmod 600 ~/192.168.200.155/.ssh/id_ed25519
+ssh -i ~/192.168.200.155/.ssh/id_ed25519 wwwadmin@192.168.200.155
+```
