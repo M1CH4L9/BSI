@@ -8,3 +8,9 @@ scp nmap-x64.tar.gz student@192.168.100.107:/home/student
 ssh student@192.168.100.107 #Password: pjatk
 tar zxvf nmap-x64.tar.gz
 ```
+
+## h 7.2 p
+```bash
+#Run on student@backdoor-detection-homework:
+./nmap -p- -n -Pn -sV -vv 192.168.200.157
+```
