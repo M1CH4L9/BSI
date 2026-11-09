@@ -22,3 +22,9 @@
 #Decode UEpBVEt7YTExeW91cmJhc2V9 using an online Base64 decoder
 #Submit the decoded flag on the platform
 ```
+
+## 9.5
+```bash
+cat hex.bin
+xxd hex.bin
+```
