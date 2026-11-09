@@ -15,8 +15,6 @@ md5sum plik2.txt
 
 ## h 9.3
 ```bash
-#Option 1: Convert PJATK{h3x} using an online ASCII to HEX converter (no spaces)
-#Option 2: On Kali:
-printf '%s' 'PJATK{h3x}' | xxd -p
+#Convert PJATK{h3x} using an online ASCII to HEX converter (no spaces)
 #Submit the hexadecimal result on the platform
 ```
