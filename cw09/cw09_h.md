@@ -24,3 +24,9 @@ md5sum plik2.txt
 #Look up the MD5 hash from the task in an online MD5 hash database (e.g. md5decrypt.net)
 #Submit the matching plaintext on the platform
 ```
+
+## h 9.5
+```bash
+#Calculate the SHA1 hash of PJATK using an online SHA1 generator
+#Submit the hash on the platform
+```
