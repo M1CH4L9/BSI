@@ -4,7 +4,7 @@
 #Copy the decoded flag and submit it on the platform
 ```
 
-Answer: PJATK{ObrOt_sym37ryczNy}
+> **Answer:** `PJATK{ObrOt_sym37ryczNy}`
 
 ## h 9.2
 ```bash
@@ -15,7 +15,7 @@ md5sum plik2.txt
 #Submit the MD5 hash (first column) on the platform
 ```
 
-Answer: ec1d2de7cd52a847df0a972bf34f59e4
+> **Answer:** `ec1d2de7cd52a847df0a972bf34f59e4`
 
 ## h 9.3
 ```bash
@@ -23,7 +23,7 @@ Answer: ec1d2de7cd52a847df0a972bf34f59e4
 #Submit the hexadecimal result on the platform
 ```
 
-Answer: 504A41544B7B6833787D
+> **Answer:** `504A41544B7B6833787D`
 
 ## h 9.4
 ```bash
@@ -31,7 +31,7 @@ Answer: 504A41544B7B6833787D
 #Submit the matching plaintext on the platform
 ```
 
-Answer: rawdata
+> **Answer:** `rawdata`
 
 ## h 9.5
 ```bash
@@ -39,4 +39,4 @@ Answer: rawdata
 #Submit the hash on the platform
 ```
 
-Answer: 2566d8d54bd570eb9961742770dac56421f115ca
+> **Answer:** `2566d8d54bd570eb9961742770dac56421f115ca`
