@@ -4,11 +4,15 @@
 #Submit the decoded flag on the platform
 ```
 
+Answer: PJATKToDopieroPoczatek
+
 ## 9.2
 ```bash
 #Decode 50 4A 41 54 4B 7B 73 7A 65 73 6E 61 73 63 69 65 7D using an online HEX to text decoder
 #Submit the decoded flag on the platform
 ```
+
+Answer: PJATK{szesnascie}
 
 ## 9.3
 ```bash
@@ -17,11 +21,15 @@
 #Submit the decoded flag on the platform
 ```
 
+Answer: PJATK{t@bel@znaKow}
+
 ## 9.4
 ```bash
 #Decode UEpBVEt7YTExeW91cmJhc2V9 using an online Base64 decoder
 #Submit the decoded flag on the platform
 ```
+
+Answer: PJATK{a11yourbase}
 
 ## 9.5
 ```bash
