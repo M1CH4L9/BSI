@@ -4,7 +4,7 @@
 #Submit the decoded flag on the platform
 ```
 
-Answer: PJATKToDopieroPoczatek
+> **Answer:** `PJATKToDopieroPoczatek`
 
 ## 9.2
 ```bash
@@ -12,7 +12,7 @@ Answer: PJATKToDopieroPoczatek
 #Submit the decoded flag on the platform
 ```
 
-Answer: PJATK{szesnascie}
+> **Answer:** `PJATK{szesnascie}`
 
 ## 9.3
 ```bash
@@ -21,7 +21,7 @@ Answer: PJATK{szesnascie}
 #Submit the decoded flag on the platform
 ```
 
-Answer: PJATK{t@bel@znaKow}
+> **Answer:** `PJATK{t@bel@znaKow}`
 
 ## 9.4
 ```bash
@@ -29,10 +29,18 @@ Answer: PJATK{t@bel@znaKow}
 #Submit the decoded flag on the platform
 ```
 
-Answer: PJATK{a11yourbase}
+> **Answer:** `PJATK{a11yourbase}`
 
 ## 9.5
 ```bash
 cat hex.bin
 xxd hex.bin
 ```
+
+## 9.6
+```bash
+#Calculate the MD5 hash of PJATK using an online MD5 generator
+#Submit the hash on the platform
+```
+
+> **Answer:** `2777ad335d49b6759ed58b87c220dfde`
