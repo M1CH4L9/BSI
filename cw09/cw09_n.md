@@ -6,7 +6,7 @@
 
 ## 9.2
 ```bash
-echo 50 4A 41 54 4B 7B 73 7A 65 73 6E 61 73 63 69 65 7D | xxd -r -p ; echo
+#Decode 50 4A 41 54 4B 7B 73 7A 65 73 6E 61 73 63 69 65 7D using an online HEX to text decoder
 #Submit the decoded flag on the platform
 ```
 
@@ -19,6 +19,6 @@ echo 50 4A 41 54 4B 7B 73 7A 65 73 6E 61 73 63 69 65 7D | xxd -r -p ; echo
 
 ## 9.4
 ```bash
-echo UEpBVEt7YTExeW91cmJhc2V9 | base64 --decode
+#Decode UEpBVEt7YTExeW91cmJhc2V9 using an online Base64 decoder
 #Submit the decoded flag on the platform
 ```
