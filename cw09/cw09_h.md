@@ -18,3 +18,9 @@ md5sum plik2.txt
 #Convert PJATK{h3x} using an online ASCII to HEX converter (no spaces)
 #Submit the hexadecimal result on the platform
 ```
+
+## h 9.4
+```bash
+#Look up the MD5 hash from the task in an online MD5 hash database (e.g. md5decrypt.net)
+#Submit the matching plaintext on the platform
+```
