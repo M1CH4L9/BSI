@@ -11,3 +11,12 @@ hashcat -m 0 hash1 /usr/share/wordlists/rockyou.txt
 ```
 
 > **Answer:** `abc123`
+
+## 9.2 p
+```bash
+#Kali:
+scp student@192.168.100.9:/home/student/hash2 ./
+hashcat -m 100 hash2 /usr/share/wordlists/rockyou.txt
+```
+
+> **Answer:** `AOM201`
