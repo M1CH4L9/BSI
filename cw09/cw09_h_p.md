@@ -21,3 +21,11 @@ hashcat -S -m 3200 '$2a$12$GZcp1ScNwZ762Vtb/6sbOOsUz1RzBuwUofk8jx9Ahv8ASi15PzL6u
 ```
 
 > **Answer:** `scarlett1`
+
+## h 9.4 p
+```bash
+#Kali:
+hashcat -m 1000 B8DBB1B31B974AC88A49A4FF1E885BA4 -a3 ?d?d?d?d?d?d?d?d?d
+```
+
+> **Answer:** `758741256`
