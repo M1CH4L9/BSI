@@ -5,3 +5,11 @@ hashcat -m 0 498c9984309d201da4ad7f354b5ce5d0 /usr/share/wordlists/rockyou.txt
 ```
 
 > **Answer:** `oncyqyu`
+
+## h 9.2 p
+```bash
+#Kali:
+hashcat -m 100 afd769dda3bb68338650b0cfccb147e9d13d8217 /usr/share/wordlists/rockyou.txt
+```
+
+> **Answer:** `KAMEHAME`
