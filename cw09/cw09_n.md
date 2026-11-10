@@ -44,3 +44,11 @@ xxd hex.bin
 ```
 
 > **Answer:** `2777ad335d49b6759ed58b87c220dfde`
+
+## 9.7
+```bash
+#Look up 3062e1e11c64939824f4f249890f7157 in an online MD5 hash database (e.g. md5decrypt.net)
+#Submit the found plaintext in the format PJATK{flag}
+```
+
+> **Answer:** `PJATK{md5md5}`
