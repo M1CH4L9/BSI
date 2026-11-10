@@ -71,3 +71,10 @@ openssl aes-256-cbc -pbkdf2 -d -in plik_enc_aes-256-cbc.bin #Password: PJATK
 ```
 
 > **Answer:** `PJATK{Sym3tr1a}`
+
+## 9.10
+```bash
+openssl genrsa -out rsa_key 3072
+openssl rsa -in rsa_key -pubout -out rsa_key.pub
+openssl pkeyutl -encrypt -in plik2.txt -pubin -inkey rsa_key.pub -out plik2.bin
+```
