@@ -50,3 +50,16 @@ cat flag.txt
 ```
 
 > **Answer:** `PJATK{Cr@ck_th3_@rchiv3}`
+
+## 9.6 p
+```bash
+#Kali:
+scp student@192.168.100.9:/home/student/file.rar ./
+crunch 1 3 -f /usr/share/crunch/charset.lst lalpha-numeric > new_dict.txt
+rar2john file.rar > hash6
+john --wordlist=new_dict.txt hash6
+unrar e file.rar #Password: dhh
+strings file
+```
+
+> **Answer:** `PJATK{Strings_a0c4153}`
