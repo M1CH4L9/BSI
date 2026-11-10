@@ -40,3 +40,11 @@ md5sum plik2.txt
 ```
 
 > **Answer:** `2566d8d54bd570eb9961742770dac56421f115ca`
+
+## h 9.6
+```bash
+#Decode the HTML entities using an online HTML entities decoder
+#Submit the decoded flag on the platform
+```
+
+> **Answer:** `PJATK{fl@g@_$!()}`
