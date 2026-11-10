@@ -29,3 +29,14 @@ hashcat -m 1000 B8DBB1B31B974AC88A49A4FF1E885BA4 -a3 ?d?d?d?d?d?d?d?d?d
 ```
 
 > **Answer:** `758741256`
+
+## h 9.5 p
+```bash
+#Kali - download Plik.zip from the platform:
+zip2john Plik.zip > hash5_p
+john --wordlist=/usr/share/wordlists/rockyou.txt hash5_p
+unzip Plik.zip #Password: obvious
+cat flag.txt
+```
+
+> **Answer:** `PJATK{TooObvious}`
