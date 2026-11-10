@@ -52,3 +52,22 @@ xxd hex.bin
 ```
 
 > **Answer:** `PJATK{md5md5}`
+
+## 9.8
+```bash
+#CyberChef (https://gchq.github.io/CyberChef/):
+#Paste the HEX string from the task into Input
+#From Hex -> Delimiter: Space
+#XOR Brute Force -> Key length: 1, Sample length: 100, Sample offset: 0, Print key: enabled
+#Find the readable flag (Key = 58 HEX)
+```
+
+> **Answer:** `PJATK{xorniejestbezpieczny}`
+
+## 9.9
+```bash
+ssh student@192.168.100.9
+openssl aes-256-cbc -pbkdf2 -d -in plik_enc_aes-256-cbc.bin #Password: PJATK
+```
+
+> **Answer:** `PJATK{Sym3tr1a}`
