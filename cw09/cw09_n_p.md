@@ -29,3 +29,12 @@ hashcat -m 3200 hash3 /usr/share/wordlists/rockyou.txt
 ```
 
 > **Answer:** `garfield`
+
+## 9.4 p
+```bash
+#Kali:
+scp student@192.168.100.9:/home/student/hash4 ./
+hashcat -m 1000 hash4 -a3 ?d?d?d?d?d?d?d?d?d?d?d
+```
+
+> **Answer:** `35821259632`
