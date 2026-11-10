@@ -38,3 +38,15 @@ hashcat -m 1000 hash4 -a3 ?d?d?d?d?d?d?d?d?d?d?d
 ```
 
 > **Answer:** `35821259632`
+
+## 9.5 p
+```bash
+#Kali:
+scp student@192.168.100.9:/home/student/pkzip.zip ./
+zip2john pkzip.zip > hash5
+john --wordlist=/usr/share/wordlists/rockyou.txt hash5
+unzip pkzip.zip #Password: Rynolds7
+cat flag.txt
+```
+
+> **Answer:** `PJATK{Cr@ck_th3_@rchiv3}`
